@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive
+}
+
+body{
+    background-color: #96b7bb;
+    padding-top: 100px;
+}
+
+header{
+    margin-bottom: 50px;
+    align-items: center;
+    max-width: 960px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #035058;
+    color: #fff;
+    text-align: center;
+}
+
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color:#fff;
+    padding: 8px;
+    border: solid;
+}
+
+form button{
+    background-color: #035058;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #035058;
+    color: #fff;
+
+}
+
+table tbody{
+    text-align: center;
+}
+
+table td{
+    padding: 16px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    color: #000;
+}
